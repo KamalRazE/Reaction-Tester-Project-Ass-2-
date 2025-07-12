@@ -20,7 +20,6 @@ function showShape() {
     shape.style.width = wh + "px";
     shape.style.height = wh + "px";
     shape.style.backgroundColor = getRandomColor();
-    shape.style.borderRadius = Math.random() > 0.5 ? "50%" : "0";
     shape.style.display = "block";
     start = new Date().getTime();
 }
